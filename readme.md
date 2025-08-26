@@ -1,10 +1,5 @@
 # TTASO: Jailbreak LLMs via Alternative Template and Suffix Optimization
 
-<p align='center'>
-    <img alt="TASO" src='assets/fig1.png' width='50%'/>
-
-</p>
-
 This repository provides the official PyTorch implementation of TASO: Jailbreak LLMs via Alternative Template and Suffix Optimization. TASO (Template and Suffix Optimization) is a novel jailbreak method that optimizes both a template and a suffix in an alternating manner.
 
 
