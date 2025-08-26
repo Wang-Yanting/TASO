@@ -1,3 +1,4 @@
+# This file is modified from HarmBench.
 # This is a config file for the models available in HarmBench. The entries in this config specify model names, how to load the models, how many GPUs
 # to request for the models (e.g., if using SLURM), the model type, and other information.
 
