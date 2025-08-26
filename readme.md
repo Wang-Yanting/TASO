@@ -1,13 +1,11 @@
-# TracLLM: A Generic Framework for Attributing Long Context LLMs
+# TTASO: Jailbreak LLMs via Alternative Template and Suffix Optimization
 
 <p align='center'>
     <img alt="TASO" src='assets/fig1.png' width='50%'/>
 
 </p>
 
-This repository provides the official PyTorch implementation of TASO: Jailbreak LLMs via Alternative Template and Suffix Optimization.
-
-TASO (Template and Suffix Optimization) is a novel jailbreak method that optimizes both a template and a suffix in an alternating manner.
+This repository provides the official PyTorch implementation of TASO: Jailbreak LLMs via Alternative Template and Suffix Optimization. TASO (Template and Suffix Optimization) is a novel jailbreak method that optimizes both a template and a suffix in an alternating manner.
 
 
 
@@ -31,7 +29,6 @@ export HF_TOKEN="your_hf_token_here"
 ### 🔬 Experiments
 
 Here we provide the scripts to replicate our experimental findings.
-To run our method, you can use the following script:
-- [script.py](script.py)
+To run our method, you can use the python script[script.py](script.py).
 
-You can set `target_model` to the model you want to use. The model names can be found in [models.yaml](configs/model_configs/models.yaml). If it is a closed-source model, you need to change the method to "TASO_blackbox"(the default method is "TASO_whitebox").
+You can set the argumetn `target_model` to the model you want to use. The model names can be found in [models.yaml](configs/model_configs/models.yaml). If it is a closed-source model, you need to change the method to `TASO_blackbox`(the default method is `TASO_whitebox`).
