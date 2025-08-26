@@ -34,4 +34,4 @@ Here we provide the scripts to replicate our experimental findings.
 To run our method, you can use the following script:
 - [script.py](script.py)
 
-You can set "target_model" to the model you want to use. The model names can be found in - [models.yaml](configs/model_configs/models.yaml). If it is a closed-source model, you need to change the method to "TASO_blackbox"(the default method is "TASO_whitebox").
+You can set `target_model` to the model you want to use. The model names can be found in [models.yaml](configs/model_configs/models.yaml). If it is a closed-source model, you need to change the method to "TASO_blackbox"(the default method is "TASO_whitebox").
