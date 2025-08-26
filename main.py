@@ -85,7 +85,7 @@ if __name__ == '__main__':
     parser.add_argument(
         "--method",
         type = str,
-        default = "ACG_autorule",
+        default = "TASO_whitebox",
         help = "Attack method."
     )
     parser.add_argument(
@@ -166,7 +166,7 @@ if __name__ == '__main__':
     parser.add_argument(
         "--prompt-template",
         type = str,
-        default = "autorule_r2d2",
+        default = "default",
         help = "Template for the universal manual prompt.",
     )
     ########### RS parameters ##########

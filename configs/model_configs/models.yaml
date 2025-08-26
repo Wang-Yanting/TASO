@@ -117,26 +117,8 @@ vicuna_13b_v1_5:
   num_gpus: 1
   model_type: open_source
 
-# Koala
-koala_7b:
-  model:
-    model_name_or_path: TheBloke/koala-7B-HF
-    use_fast_tokenizer: False
-    dtype: bfloat16
-    chat_template: koala
-  num_gpus: 1
-  model_type: open_source
 
-koala_13b:
-  model:
-    model_name_or_path: TheBloke/koala-13B-HF
-    use_fast_tokenizer: False
-    dtype: bfloat16
-    chat_template: koala
-  num_gpus: 1
-  model_type: open_source
-
-# Koala
+# gemma
 gemma_7b:
   model:
     model_name_or_path: google/gemma-7b-it
@@ -155,25 +137,6 @@ gemma2_9b:
   num_gpus: 1
   model_type: open_source
 
-# Orca
-orca_2_7b:
-  model: 
-    model_name_or_path: microsoft/Orca-2-7b
-    use_fast_tokenizer: False
-    dtype: bfloat16
-    chat_template: orca-2
-  num_gpus: 1
-  model_type: open_source
-
-orca_2_13b:
-  model: 
-    model_name_or_path: microsoft/Orca-2-13b
-    use_fast_tokenizer: False
-    dtype: bfloat16
-    chat_template: orca-2
-  num_gpus: 1
-  model_type: open_source
-
 # SOLAR
 solar_10_7b_instruct:
   model:
@@ -183,23 +146,7 @@ solar_10_7b_instruct:
   num_gpus: 1
   model_type: open_source
 
-# OpenChat
-openchat_3_5_1210:
-  model:
-    model_name_or_path: openchat/openchat-3.5-1210
-    use_fast_tokenizer: False
-    dtype: bfloat16
-  num_gpus: 1
-  model_type: open_source
 
-# Starling
-starling_7b:
-  model: 
-    model_name_or_path: berkeley-nest/Starling-LM-7B-alpha
-    use_fast_tokenizer: False
-    dtype: bfloat16
-  num_gpus: 1
-  model_type: open_source
 
 # Mistral
 mistral_7b_v2:
@@ -238,15 +185,6 @@ zephyr_7b:
   num_gpus: 1
   model_type: open_source
 
-# Zephyr 7B + R2D2 (adversarial training against GCG)
-r2d2:
-  model:
-    model_name_or_path: cais/zephyr_7b_r2d2
-    use_fast_tokenizer: False
-    dtype: bfloat16
-    chat_template: r2d2
-  num_gpus: 1
-  model_type: open_source
 
 # Baichuan 2
 baichuan2_7b:
@@ -389,23 +327,7 @@ gpt-4-0125-preview:
     token: <your_openai_token>
   model_type: closed_source
 
-claude-instant-1:
-  model:
-    model_name_or_path: claude-instant-1
-    token: <your_anthropic_token>
-  model_type: closed_source
-  
-claude-2.1:
-  model:
-    model_name_or_path: claude-2.1
-    token: <your_anthropic_token>
-  model_type: closed_source
-  
-claude-2:
-  model:
-    model_name_or_path: claude-2
-    token: <your_anthropic_token>
-  model_type: closed_source
+
 
 gemini:
   model:
@@ -413,32 +335,7 @@ gemini:
     token: <your_google_ai_studio_token>
   model_type: closed_source
 
-mistral-medium:
-  mode:
-    model_name_or_path: mistral-medium
-    token: <your_mistral_token>
-  model_type: closed_source
 
-
-# ===================== Open-Source Multimodal Models ===================== #
-
-llava_v1_5:
-  model:
-    model_name_or_path: LLaVA_v1_5
-  model_type: open_source_multimodal
-  num_gpus: 1
-
-instructblip:
-  model:
-    model_name_or_path: InstructBLIP
-  model_type: open_source_multimodal
-  num_gpus: 1
-
-qwen_vl_chat:
-  model:
-    model_name_or_path: Qwen_VL_Chat
-  model_type: open_source_multimodal
-  num_gpus: 1
 
 
 # ===================== Closed-Source Multimodal Models ===================== #
