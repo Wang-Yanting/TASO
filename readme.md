@@ -24,6 +24,6 @@ export HF_TOKEN="your_hf_token_here"
 ### 🔬 Experiments
 
 Here we provide the scripts to replicate our experimental findings.
-To run our method, you can use the python script[script.py](script.py).
+To run our method, you can use the python script [script.py](script.py).
 
 You can set the argumetn `target_model` to the model you want to use. The model names can be found in [models.yaml](configs/model_configs/models.yaml). If it is a closed-source model, you need to change the method to `TASO_blackbox`(the default method is `TASO_whitebox`).
