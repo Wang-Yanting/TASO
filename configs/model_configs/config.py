@@ -1,0 +1,15 @@
+VICUNA_PATH = "lmsys/vicuna-13b-v1.5"
+LLAMA_7B_PATH = "meta-llama/Llama-2-7b-chat-hf"
+LLAMA_13B_PATH = "meta-llama/Llama-2-13b-chat-hf"
+LLAMA3_13B_PATH = "meta-llama/Llama-3-13b-chat-hf"
+LLAMA31_13B_PATH = "meta-llama/Llama-3.1-13b-chat-hf"
+LLAMA_70B_PATH = "meta-llama/Llama-2-70b-chat-hf"
+LLAMA3_8B_PATH = "meta-llama/Meta-Llama-3-8B-Instruct"
+LLAMA31_8B_PATH = "meta-llama/Meta-Llama-3.1-8B-Instruct"
+LLAMA3_70B_PATH = "meta-llama/Meta-Llama-3-70B-Instruct"
+LLAMA31_70B_PATH = "meta-llama/Llama-3.1-70B-Instruct"
+GEMMA_2_9B_PATH = "google/gemma-2-9b-it"
+MISTRAL_7B_PATH = "mistralai/Mistral-7B-Instruct-v0.2"
+QWEN_7B_PATH = "Qwen/Qwen-7B-Chat"
+TARGET_TEMP = 0
+TARGET_TOP_P = 1

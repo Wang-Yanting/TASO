@@ -1,0 +1,4 @@
+
+run.sbatch
+logs/
+results/
